@@ -1,8 +1,43 @@
-.header {
-  font-size: 1.15rem;
-  background-color: #F6F6F6;
+@font-face {
+  font-family: "body-font";
+  src: url("./assets/SF-Pro-Text-Regular.otf");
+}
+
+* {
+  font-family: "body-font";
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #f7f7f7;
+}
+
+.header {
+  font-size: 1.15rem;
+  background-color: #e9e9e9;
+  padding: 16px 0px;
+}
+
+.welcome-banner {
+  background-color: #188150;
+  color: #ffffff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.p-10 {
+  padding: 3rem;
+}
+
+.mx-10 {
+  margin: 0rem 3rem;
+}
+
+.px-10 {
+  padding: 0rem 3rem;
+}
+
+.border-10 {
+  border-style: solid;
+  /* border-color: red !important; */
+  border-width: 1.5px !important;
 }
