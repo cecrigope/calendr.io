@@ -1,4 +1,9 @@
 @font-face {
+  font-family: "heading-font";
+  src: url("./assets/SF-Pro-Text-Bold.otf");
+}
+
+@font-face {
   font-family: "body-font";
   src: url("./assets/SF-Pro-Text-Regular.otf");
 }
@@ -11,8 +16,13 @@ body {
   background-color: #f7f7f7;
 }
 
+h1, .header-title {
+  font-family: "heading-font";
+  letter-spacing: -1.5px;
+}
+
 .header {
-  font-size: 1.15rem;
+  font-size: 1.5rem;
   background-color: #e9e9e9;
   padding: 16px 0px;
 }
@@ -38,6 +48,5 @@ body {
 
 .border-10 {
   border-style: solid;
-  /* border-color: red !important; */
   border-width: 1.5px !important;
 }
